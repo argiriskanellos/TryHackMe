@@ -37,11 +37,39 @@ Nmap done: 1 IP address (1 host up) scanned in 29.27 seconds
 ```bash
 gobuster dir -u http://[Target_Machine_Ip] -w /usr/share/wordlists/dirb/big.txt
 ```
+**Gobuster Scan Results:**
+```
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.66.220
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/big.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/.htaccess            (Status: 403) [Size: 296]
+/.htpasswd            (Status: 403) [Size: 296]
+/robots.txt           (Status: 200) [Size: 929]
+/server-status        (Status: 403) [Size: 300]
+/simple               (Status: 301) [Size: 313] [--> http://10.10.66.220/simple/]                                                         
+
+Progress: 20469 / 20470 (100.00%)
+===============================================================
+Finished
+```
+
+
 
 ## 5. Application Vulnerability
 **Question:** To what kind of vulnerability is the application vulnerable?  
 **Answer:** SQLi  
-**Source:** From a screenshot related to the application.
+
 
 ## 6. Exploiting the Vulnerability
 **Question:** What can you leverage to exploit the vulnerability?  
