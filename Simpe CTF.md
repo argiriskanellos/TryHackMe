@@ -125,14 +125,6 @@ sudo vim -c ':!/bin/sh'
 ## 13. Finding the Root Flag
 **Question:** How do you find the root flag?  
 **Method:** Navigate to the root folder to find the `root.txt` file.  
-**Command:**
-```bash
-cd /
-ls
-```
-**Output:**
-```
-root.txt
-```
+
 
 **Flag:** W___ ____. ___ ____ _t!
