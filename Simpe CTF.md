@@ -28,13 +28,7 @@ Nmap done: 1 IP address (1 host up) scanned in 29.27 seconds
 **Question:** What is running on the higher port?  
 **Answer:** SSH  
 
-## 3. CVE Used
-**Question:** What's the CVE you're using against the application?  
-**Answer:** CVE-2019-9053  
-**Reference:** [Exploit Database CVE-2019-9053](https://www.exploit-db.com/exploits/46635)
-
-
-## 4. Directory Enumeration
+## 3. Directory Enumeration
 **Command:**
 ```bash
 gobuster dir -u http://[Target_Machine_Ip] -w /usr/share/wordlists/dirb/big.txt
@@ -65,6 +59,14 @@ Progress: 20469 / 20470 (100.00%)
 ===============================================================
 Finished
 ```
+
+## 4. CVE Used
+**Question:** What's the CVE you're using against the application?  
+**Answer:** CVE-2019-9053  
+**Reference:** [Exploit Database CVE-2019-9053](https://www.exploit-db.com/exploits/46635)
+
+
+
 
 
 
