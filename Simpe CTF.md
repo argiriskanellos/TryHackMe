@@ -59,6 +59,8 @@ Progress: 20469 / 20470 (100.00%)
 ===============================================================
 Finished
 ```
+**Method:** After visiting http://[Target_Machine_Ip]/simple, we can discern that CMS Made Simple 2.2.8 is being used at the bottom of the page.
+
 
 ## 4. CVE Used
 **Question:** What's the CVE you're using against the application?  
