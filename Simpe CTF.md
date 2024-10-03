@@ -1,4 +1,4 @@
-# TryHackMe CTF Walkthrough
+# Simple CTF Walkthrough
 
 ## 1. Services Running Under Port 1000
 **Question:** How many services are running under port 1000?  
